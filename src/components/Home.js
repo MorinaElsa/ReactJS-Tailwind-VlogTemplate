@@ -4,7 +4,7 @@ function Home() {
   return (
     <div>
       <div className=" w-full">
-        <div className=" flex max-w-screen-xl mx-auto px-4 my-10 text-gray-600">
+        <div className="max-w-screen-lg mx-auto px-4 my-10 text-gray-600">
           <div>
             <img src={require("../img/cook.png")}></img>
           </div>
@@ -17,7 +17,7 @@ function Home() {
                 News Needs to Meet Its Audiences Where They Are
               </a>
             </h2>
-            <p className="mb-8 text-sm">
+            <p className="mb-10 text-sm">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptate vero obcaecati natus adipisci necessitatibus eius, enim
               vel sit ad reiciendis. Enim praesentium magni delectus cum,
@@ -25,13 +25,13 @@ function Home() {
               adipisci excepturi consectetur doloribus aliquam accusantium
               beatae?
             </p>
-            <div className="flex flex-row">
+            <div className="flex flex-col space-y-4">
               <span>
                 <a href="#"> Dave Rogers</a>
                 in
                 <a href="#"> Food</a>
               </span>
-              <span px-6>
+              <span className="text-gray-400">
                 June 14
                 <span>•</span>3 min read
               </span>
