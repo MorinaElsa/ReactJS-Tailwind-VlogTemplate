@@ -3,7 +3,7 @@ import data from "../../data/editorsPickData";
 
 const EditorsPick = () => {
   return (
-    <div className="site-section mb-20">
+    <div className="site-section mb-20 mt-20">
       <div className=" max-w-screen-xl  mx-auto flex flex-row">
         <div className="basis-1/3 w-full px-10">
           <a href="#">
