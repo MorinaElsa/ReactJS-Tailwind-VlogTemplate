@@ -1,8 +1,7 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
-import EditorsPick from "./components/EditorsPick";
-
+import EditorsPick from "./components/EditorsPick/EditorsPick";
 
 function App() {
   return (
