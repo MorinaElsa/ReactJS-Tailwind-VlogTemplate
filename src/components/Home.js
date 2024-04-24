@@ -25,7 +25,7 @@ function Home() {
               adipisci excepturi consectetur doloribus aliquam accusantium
               beatae?
             </p>
-            <div className="flex flex-col space-y-4">
+            <div className="flex flex-col space-y-2">
               <span>
                 <a href="#"> Dave Rogers</a>
                 in
@@ -33,7 +33,7 @@ function Home() {
               </span>
               <span className="text-gray-400">
                 June 14
-                <span>•</span>3 min read
+                <span> • </span>3 min read
               </span>
             </div>
           </div>
