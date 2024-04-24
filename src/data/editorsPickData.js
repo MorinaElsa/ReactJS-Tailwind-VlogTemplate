@@ -2,7 +2,7 @@ const data = [
   {
     id: "1",
     image: require("../img/vlog1.png"),
-    title: "News Needs to Meet Its Audiences Where They Are",
+    title: "News Needs to Meet Its Audiences ",
     titleLink: "https://preview.colorlib.com/theme/meranda/blog-single.html",
     name: " Dave Rogers",
     date: "June 25",
@@ -12,7 +12,7 @@ const data = [
   {
     id: "2",
     image: require("../img/vlog2.jpg"),
-    title: "News Needs to Meet Its Audiences Where They Are",
+    title: "News Needs to Meet Its Audiences",
     titleLink: "https://preview.colorlib.com/theme/meranda/blog-single.html",
     name: " Dave Rogers",
     date: "June 9",
@@ -22,7 +22,7 @@ const data = [
   {
     id: "2",
     image: require("../img/cook.png"),
-    title: "News Needs to Meet Its Audiences Where They Are",
+    title: "News Needs to Meet Its Audiences ",
     titleLink: "https://preview.colorlib.com/theme/meranda/blog-single.html",
     name: " Dave Rogers",
     date: "June 5",

@@ -40,7 +40,7 @@ const EditorsPick = () => {
               className=" bg-posts-background leading-relaxed flex flex-row "
               key={post.id}
             >
-              <div className="basis-1/3">
+              <div className="basis-1/2">
                 <img
                   src={post.image}
                   alt="Thumbnail"
