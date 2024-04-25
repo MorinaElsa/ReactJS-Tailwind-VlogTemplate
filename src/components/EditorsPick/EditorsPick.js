@@ -4,6 +4,10 @@ import data from "../../data/editorsPickData";
 const EditorsPick = () => {
   return (
     <div className="site-section mb-20 mt-20">
+    <div className="text-center mb-12"> 
+         <span className="text-sm text-gray-400 font-medium uppercase">Trending</span>
+          <h2 className="text-3xl text-gray-500">Follow the Trend </h2>
+          </div>
       <div className=" max-w-screen-xl  mx-auto flex flex-row">
         <div className="basis-1/3 w-full px-10">
           <a href="#">
@@ -47,7 +51,7 @@ const EditorsPick = () => {
                   className="bg-cover w-full h-full"
                 />
               </div>
-              <div className=" basis-1/2 font-light text-sm font-semibold p-3">
+              <div className=" basis-1/2 text-sm font-semibold p-3">
                 <h2 className=" mb-6">
                   <a href={post.titleLink}>{post.title}</a>
                 </h2>
@@ -65,7 +69,7 @@ const EditorsPick = () => {
         </div>
 
         <div className="basis-1/3 px-5">
-          <div className="font-light font-semibold mb-6">
+          <div className=" font-semibold mb-6">
             <h2>Trending</h2>
           </div>
           {data.map((trending, index) => (

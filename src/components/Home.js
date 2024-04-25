@@ -6,7 +6,7 @@ function Home() {
       <div className=" w-full">
         <div className="max-w-screen-lg mx-auto px-4 my-10 text-gray-600">
           <div>
-            <img src={require("../img/cook.png")}></img>
+            <img src={require("../img/cook.png")} alt="Main Post"></img>
           </div>
           <div className="p-14 text-sm h-auto bg-background-gray">
             <span className="uppercase tracking-wider my-8 ">

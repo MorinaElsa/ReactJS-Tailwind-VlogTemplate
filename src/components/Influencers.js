@@ -24,7 +24,7 @@ function Influencers() {
                 <img
                   className="rounded-full w-1/2 h-1/2"
                   src={influencer.img}
-                  alt=" Influencers image"
+                  alt=" Influencers"
                 />
               </div>
               <div className="px-12 text-center text-xs leading-5">
