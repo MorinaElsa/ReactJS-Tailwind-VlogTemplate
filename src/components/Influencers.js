@@ -5,7 +5,7 @@ function Influencers() {
   return (
     <div className="w-full bg-influencer-background py-12 font-poppins">
       <div className=" max-w-screen-2xl  mx-auto ">
-        <div className="text-center mb-12 m-auto lg:max-w-5xl sm:sm:max-w-md">
+        <div className="text-center mb-12 m-auto lg:max-w-5xl sm:max-w-md">
           <span className="text-sm text-gray-400 font-medium ">TESTIMONY</span>
           <h2 className="text-3xl text-gray-500 mb-10">Our Influencers </h2>
           <p className="text-sm max-w-screen-sm m-auto text-gray-500 mb-10 leading-6">
@@ -21,7 +21,7 @@ function Influencers() {
             <div className="min-h-[250px] " key={influencer.id}>
               <div className="flex justify-center items-center mb-8">
                 <img
-                  className="rounded-full 2xl:w-1/2 2xl:h-1/2 sm:w-1/4 sm:h-1/4 "
+                  className="rounded-full w-1/2 h-1/2 sm:w-1/4 sm:h-1/4 2xl:w-1/4 2xl:h-1/4 "
                   src={influencer.img}
                   alt=" Influencers"
                 />
