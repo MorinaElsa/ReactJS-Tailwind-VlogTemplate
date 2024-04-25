@@ -3,35 +3,35 @@ import React from "react";
 function Health() {
   return (
     <div className="max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4">
-      <div className="grid grid-cols-2 grid-rows-6 h-[50vh]">
+      <div className="grid grid-cols-2 grid-rows-6 md:h-[80vh] sm:h-[50vh]">
         <img
           className="row-span-3 object-cover w-full h-full p-2"
-          src="https://i.pinimg.com/736x/24/61/ce/2461ced880b3eb4bf8bf67936b391805.jpg"
+          src={require("../img/vlog1.png")}
           alt="food1"
         />
         <img
           className="row-span-2 object-cover w-full h-full p-2"
-          src="https://m.media-amazon.com/images/I/61X4LcQWs7L.jpg"
+          src={require("../img/vlog2.jpg")}
           alt="food1"
         />
         <img
           className="row-span-2 object-cover w-full h-full p-2"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSssiZyc1nWQqAKBjr1lnVgrRgVMSkXY22b5A&usqp=CAU"
+           src={require("../img/vlog3.jpg")}
           alt="food1"
         />
         <img
           className="row-span-3 object-cover w-full h-full p-2"
-          src="https://i.pinimg.com/564x/bc/2d/e6/bc2de68cfbf68e01797da7ab43a1d267.jpg"
+           src={require("../img/influencer.png")}
           alt="food1"
         />
         <img
           className="row-span-2 object-cover w-full h-full p-2"
-          src="https://insideofhappiness.com/wp-content/uploads/2020/05/self-care-subscription-box-240x320.png"
+          src={require("../img/cook.png")}
           alt="food1"
         />
       </div>
       <div className="flex flex-col h-full justify-center">
-        <h3 className="text-xl md:text-6xl text-gray-400 font-semi-bold">
+        <h3 className="text-2xl md:text-2xl text-gray-400 font-semi-bold">
           {" "}
           Healthy lifestyle
         </h3>
@@ -48,10 +48,10 @@ function Health() {
           corporis deserunt doloribus aperiam tempora?
         </p>
         <div>
-          <button className="border-black border mr-4 hover:shadow-xl rounded-2xl p-1.5">
+          <button className="md:text-sm border-black border mr-4 hover:shadow-xl rounded-2xl p-1.5">
             Learn More
           </button>
-          <button className=" bg-slate-700 border text-white border-black hover:shadow-6xl rounded-2xl p-1.5">
+          <button className="md:text-sm bg-slate-700 border text-white border-black hover:shadow-6xl rounded-2xl p-1.5">
             Book Consult
           </button>
         </div>
