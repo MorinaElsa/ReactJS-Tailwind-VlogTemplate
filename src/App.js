@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Influencers from "./components/Influencers";
 import EditorsPick from "./components/EditorsPick/EditorsPick";
 import Subscribe from "./components/Subscribe";
+import Health from "./components/Health";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Influencers />
       <EditorsPick />
+      <Health />
       <Subscribe />
     </div>
   );
