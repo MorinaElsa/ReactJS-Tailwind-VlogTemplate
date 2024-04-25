@@ -10,9 +10,7 @@ const NavBar = () => {
   return (
     <nav className="fixed top-0 z-50 w-full bg-white shadow-lg">
       <div className="flex justify-between items-center h-16 px-4 max-w-[1240px] mx-auto">
-        <h2 className="text-3xl font-cabin hover:text-hover-green">
-          Meranda
-        </h2>
+        <h2 className="text-3xl font-cabin hover:text-hover-green">Meranda</h2>
         <div className="sm:hidden">
           <button
             onClick={toggleMenu}

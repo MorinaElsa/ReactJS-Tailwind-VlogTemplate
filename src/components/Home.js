@@ -27,9 +27,9 @@ function Home() {
             </p>
             <div className="flex flex-col space-y-2">
               <span>
-                <a href="#"> Dave Rogers</a>
+                Dave Rogers
                 in
-                <a href="#"> Food</a>
+               Food
               </span>
               <span className="text-gray-400">
                 June 14
