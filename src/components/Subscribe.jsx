@@ -2,7 +2,7 @@ import React from "react";
 
 const Subscribe = () => {
   return (
-    <div className="w-full bg-background-gray">
+    <div id="subscribe" className="w-full bg-background-gray">
       <div className="p-10 lg:p-20 max-w-screen-2xl m-auto flex flex-col lg:flex-row items-start lg:items-center">
         <div className="lg:w-1/2 lg:mr-8 mb-8 lg:mb-0">
           <div className="content mb-6">

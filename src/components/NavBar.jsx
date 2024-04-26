@@ -7,6 +7,10 @@ const NavBar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <nav className="fixed top-0 z-50 w-full bg-white shadow-lg">
       <div className="flex justify-between items-center h-16 px-4 max-w-[1240px] mx-auto">
@@ -29,10 +33,11 @@ const NavBar = () => {
             isMenuOpen ? "block" : "hidden"
           } font-mono sm:mt-0 mt-4 absolute sm:relative top-full left-0 sm:top-0 sm:left-auto sm:flex flex-col sm:flex-row bg-white sm:bg-transparent w-full sm:w-auto justify-center items-center`}
         >
-          <li className="p-4 hover:text-hover-green"> HOME </li>
-          <li className="p-4 hover:text-hover-green">INFLUENCERS</li>
-          <li className="p-4 hover:text-hover-green">TRENDING</li>
-          <li className="p-4 hover:text-hover-green">CONTACT</li>
+          <li className="p-4 hover:text-hover-green" onClick={closeMenu}> <a href="/"> Home </a> </li>
+          <li className="p-4 hover:text-hover-green" onClick={closeMenu}><a href="#trending"> Trending </a></li>
+          <li className="p-4 hover:text-hover-green" onClick={closeMenu}><a href="#influencers"> Influencers </a></li>
+          <li className="p-4 hover:text-hover-green" onClick={closeMenu}><a href="#health"> Health </a></li>
+          <li className="p-4 hover:text-hover-green" onClick={closeMenu}><a href="#subscribe"> Subscribe </a></li>
         </ul>
       </div>
     </nav>

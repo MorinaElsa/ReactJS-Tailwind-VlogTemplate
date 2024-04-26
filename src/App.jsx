@@ -5,7 +5,7 @@ import Influencers from "./components/Influencers";
 import EditorsPick from "./components/EditorsPick/EditorsPick";
 import Subscribe from "./components/Subscribe";
 import Health from "./components/Health";
-import Instagram from "./components/Instagram";
+
 
 function App() {
   return (

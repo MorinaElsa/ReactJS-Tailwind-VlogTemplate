@@ -2,7 +2,7 @@ import React from "react";
 
 function Health() {
   return (
-    <div className="max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4">
+    <div id="health" className="max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4">
       <div className="grid grid-cols-2 grid-rows-6 lg:h-[50vh] md:h-[50vh] ">
         <img
           className="row-span-3 object-cover w-full h-full p-2"

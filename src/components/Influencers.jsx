@@ -3,7 +3,7 @@ import dataI from "../data/influencersData";
 
 function Influencers() {
   return (
-    <div className="w-full bg-influencer-background py-12 font-poppins">
+    <div id="influencers" className="w-full bg-influencer-background py-12 font-poppins">
       <div className=" max-w-screen-2xl  mx-auto ">
         <div className="text-center mb-12 m-auto lg:max-w-5xl sm:max-w-md">
           <span className="text-sm text-gray-400 font-medium ">TESTIMONY</span>
