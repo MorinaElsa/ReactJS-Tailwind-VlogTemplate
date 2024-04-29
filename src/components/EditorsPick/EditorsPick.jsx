@@ -1,5 +1,6 @@
 import React from "react";
 import data from "../../data/editorsPickData";
+import vlog1 from "../../img/vlog1.png"
 
 const EditorsPick = () => {
   return (
@@ -14,7 +15,7 @@ const EditorsPick = () => {
         <div className="lg:w-1/3 w-full px-10 mb-8 lg:mb-0">
           <img
             className="w-full rounded-md mb-4"
-            src={require("../../img/vlog1.png")}
+            src={vlog1}
             alt="Vlog post"
           />
           <h2 className="font-medium text-xl mb-6">

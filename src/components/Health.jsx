@@ -1,32 +1,40 @@
 import React from "react";
+import vlog1 from "../img/vlog1.png";
+import vlog2 from "../img/vlog2.jpg";
+import vlog3 from "../img/vlog3.jpg";
+import cook from "../img/cook.png";
+import influencerImg from "../img/influencer.png";
 
 function Health() {
   return (
-    <div id="health" className="max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4">
+    <div
+      id="health"
+      className="max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4"
+    >
       <div className="grid grid-cols-2 grid-rows-6 lg:h-[50vh] md:h-[50vh] ">
         <img
           className="row-span-3 object-cover w-full h-full p-2"
-          src={require("../img/vlog1.png")}
+          src={vlog1}
           alt="food1"
         />
         <img
           className="row-span-2 object-cover w-full h-full p-2"
-          src={require("../img/vlog2.jpg")}
+          src={vlog2}
           alt="food1"
         />
         <img
           className="row-span-2 object-cover w-full h-full p-2"
-           src={require("../img/vlog3.jpg")}
+          src={vlog3}
           alt="food1"
         />
         <img
           className="row-span-3 object-cover w-full h-full p-2"
-           src={require("../img/influencer.png")}
+          src={influencerImg}
           alt="food1"
         />
         <img
           className="row-span-2 object-cover w-full h-full p-2"
-          src={require("../img/cook.png")}
+          src={cook}
           alt="food1"
         />
       </div>

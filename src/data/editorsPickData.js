@@ -1,7 +1,10 @@
+import vlog1 from '../img/vlog1.png'
+import vlog2 from '../img/vlog2.jpg'
+import cook from '../img/cook.png'
 const data = [
   {
     id: "1",
-    image: require("../img/vlog1.png"),
+    image: vlog1,
     title: "News Needs to Meet Its Audiences Where They Are",
     titleLink: "https://preview.colorlib.com/theme/meranda/blog-single.html",
     name: " Dave Rogers",
@@ -11,7 +14,7 @@ const data = [
   },
   {
     id: "2",
-    image: require("../img/vlog2.jpg"),
+    image: vlog2,
     title: "News Needs to Meet Its Audiences Where They Are",
     titleLink: "https://preview.colorlib.com/theme/meranda/blog-single.html",
     name: " Dave Rogers",
@@ -21,7 +24,7 @@ const data = [
   },
   {
     id: "3",
-    image: require("../img/cook.png"),
+    image: cook,
     title: "News Needs to Meet Its Audiences Where They Are",
     titleLink: "https://preview.colorlib.com/theme/meranda/blog-single.html",
     name: " Dave Rogers",
