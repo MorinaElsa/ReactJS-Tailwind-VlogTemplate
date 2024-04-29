@@ -26,7 +26,7 @@ const NavBar = () => {
         <ul
           className={`uppercase sm:flex ${
             isMenuOpen ? "block" : "hidden"
-          } font-mono mt-4 absolute sm:relative top-full left-0 sm:left-auto sm:flex flex-col sm:flex-row bg-white sm:bg-transparent w-full sm:w-auto justify-center items-center`}
+          } font-mono sm:mt-0 mt-4 absolute sm:relative top-full left-0 sm:top-0 sm:left-auto sm:flex flex-col sm:flex-row bg-white sm:bg-transparent w-full sm:w-auto justify-center items-center`}
         >
           <li className="p-4 hover:text-hover-green" onClick={closeMenu}>
             {" "}
