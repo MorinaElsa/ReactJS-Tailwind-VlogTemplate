@@ -8,10 +8,6 @@ const NavBar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const closeMenu = () => {
-    setIsMenuOpen(false);
-  };
-
   return (
     <nav className="fixed top-0 z-50 w-full bg-white shadow-lg">
       <div className="flex justify-between items-center h-16 px-4 max-w-[1240px] mx-auto">
@@ -30,7 +26,7 @@ const NavBar = () => {
           } font-mono sm:mt-0 mt-4 absolute sm:relative top-full left-0 sm:top-0 sm:left-auto sm:flex flex-col sm:flex-row bg-white sm:bg-transparent w-full sm:w-auto justify-center items-center`}
         >
         {dataNavBar.map((link, index) => (
-          <li key={link.id} className="p-4 hover:text-hover-green" onClick={closeMenu}>
+          <li key={link.id} className="p-4 hover:text-hover-green" onClick={toggleMenu}>
             <a href={link.sectionId}> {link.name} </a>{" "}
           </li>
           ))}
