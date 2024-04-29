@@ -3,7 +3,7 @@ import data from "../../data/editorsPickData";
 
 const EditorsPick = () => {
   return (
-    <div id="trending" className="site-section mb-20 mt-20">
+    <div id="trending" className="mb-20 mt-20">
       <div className="text-center mb-12">
         <span className="text-sm text-gray-400 font-medium uppercase">
           Trending
