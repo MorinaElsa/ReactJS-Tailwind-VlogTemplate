@@ -32,6 +32,8 @@ const dataInfluencer = [
     fullname: " John Doe ",
     place: "Malta",
   },
+  
+  
 ];
 
 export default dataInfluencer;
