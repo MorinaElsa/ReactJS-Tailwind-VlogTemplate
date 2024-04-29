@@ -1,4 +1,4 @@
-const dataI = [
+const dataInfluencer = [
   {
     Id: "1",
     img: require("../img/influencer.png"),
@@ -33,4 +33,4 @@ const dataI = [
   },
 ];
 
-export default dataI;
+export default dataInfluencer;

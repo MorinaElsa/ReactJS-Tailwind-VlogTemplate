@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import dataNavBar from "../data/navBarData.js";
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,22 +29,11 @@ const NavBar = () => {
             isMenuOpen ? "block" : "hidden"
           } font-mono sm:mt-0 mt-4 absolute sm:relative top-full left-0 sm:top-0 sm:left-auto sm:flex flex-col sm:flex-row bg-white sm:bg-transparent w-full sm:w-auto justify-center items-center`}
         >
-          <li className="p-4 hover:text-hover-green" onClick={closeMenu}>
-            {" "}
-            <a href="/"> Home </a>{" "}
+        {dataNavBar.map((link, index) => (
+          <li key={link.id} className="p-4 hover:text-hover-green" onClick={closeMenu}>
+            <a href={link.sectionId}> {link.name} </a>{" "}
           </li>
-          <li className="p-4 hover:text-hover-green" onClick={closeMenu}>
-            <a href="#trending"> Trending </a>
-          </li>
-          <li className="p-4 hover:text-hover-green" onClick={closeMenu}>
-            <a href="#influencers"> Influencers </a>
-          </li>
-          <li className="p-4 hover:text-hover-green" onClick={closeMenu}>
-            <a href="#health"> Health </a>
-          </li>
-          <li className="p-4 hover:text-hover-green" onClick={closeMenu}>
-            <a href="#subscribe"> Subscribe </a>
-          </li>
+          ))}
         </ul>
       </div>
     </nav>

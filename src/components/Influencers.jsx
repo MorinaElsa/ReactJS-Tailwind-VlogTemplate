@@ -1,5 +1,5 @@
 import React from "react";
-import dataI from "../data/influencersData";
+import dataInfluencer from "../data/influencersData";
 
 function Influencers() {
   return (
@@ -20,7 +20,7 @@ function Influencers() {
           </p>
         </div>
         <div className="m-4 grid  gap-4  text-gray-500 text-sm lg:grid-cols-2 sm:grid-cols-1 2xl:grid-cols-4">
-          {dataI.map((influencer, index) => (
+          {dataInfluencer.map((influencer, index) => (
             <div className="min-h-[250px] " key={influencer.Id}>
               <div className="flex justify-center items-center mb-8">
                 <img
