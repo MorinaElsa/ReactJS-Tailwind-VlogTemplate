@@ -7,11 +7,11 @@ function Influencers() {
       id="influencers"
       className="w-full bg-influencer-background py-12 font-poppins"
     >
-      <div className=" max-w-screen-2xl  mx-auto ">
-        <div className="text-center mb-12 m-auto lg:max-w-5xl sm:max-w-md">
-          <span className="text-sm text-gray-400 font-medium ">TESTIMONY</span>
+      <div className="max-w-screen-2xl mx-auto">
+        <div className="text-center mb-12 mx-auto lg:max-w-5xl sm:max-w-md">
+          <span className="text-sm text-gray-400 font-medium">TESTIMONY</span>
           <h2 className="text-3xl text-gray-500 mb-10">Our Influencers </h2>
-          <p className="text-sm max-w-screen-sm m-auto text-gray-500 mb-10 leading-6">
+          <p className="text-sm max-w-screen-sm mx-auto text-gray-500 mb-10 leading-6">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts. Separated they
             live in. The copy warned the Little Blind Text, that where it came
@@ -19,17 +19,17 @@ function Influencers() {
             that was left from its origin.
           </p>
         </div>
-        <div className="m-4 grid  gap-4  text-gray-500 text-sm lg:grid-cols-2 sm:grid-cols-1 2xl:grid-cols-4">
+        <div className="m-4 grid gap-4 text-gray-500 text-sm lg:grid-cols-2 2xl:grid-cols-4">
           {dataInfluencer.map((influencer, index) => (
-            <div className="min-h-[250px] " key={influencer.Id}>
+            <div className="min-h-[250px]" key={influencer.Id}>
               <div className="flex justify-center items-center mb-8">
                 <img
-                  className="rounded-full w-1/2 h-1/2 sm:w-1/4 sm:h-1/4 2xl:w-1/4 2xl:h-1/4 "
+                  className="rounded-full w-1/3 h-1/3 lg:w-1/2 lg:h-1/2"
                   src={influencer.img}
-                  alt=" Influencers"
+                  alt="Influencers"
                 />
               </div>
-              <div className="px-12 text-center text-xs leading-5 2xl:max-w-lg lg:max-w-sm sm:max-w-xs m-auto">
+              <div className="px-6 sm:px-12 text-center text-xs leading-5 sm:max-w-sm max-w-xs mx-auto">
                 <p className="mb-6">{influencer.quote}</p>
                 <p className="text-lg text-gray-900">{influencer.fullname}</p>
                 <span>{influencer.place}</span>
