@@ -1,4 +1,5 @@
 import React from "react";
+import cook from "../img/cook.png"
 
 function Home() {
   return (
@@ -6,7 +7,7 @@ function Home() {
       <div className=" w-full">
         <div className="max-w-screen-lg mx-auto px-4 my-10 text-gray-600">
           <div>
-            <img src={require("../img/cook.png")} alt="Main Post"></img>
+            <img src={cook} alt="cooking"></img>
           </div>
           <div className="p-14 text-sm h-auto bg-background-gray">
             <span className="uppercase tracking-wider my-8 ">
