@@ -4,6 +4,7 @@ import cook from '../img/cook.png'
 const data = [
   {
     id: "1",
+    letter: "❝",
     image: vlog1,
     title: "News Needs to Meet Its Audiences Where They Are",
     titleLink: "https://preview.colorlib.com/theme/meranda/blog-single.html",
@@ -14,6 +15,7 @@ const data = [
   },
   {
     id: "2",
+    letter: "❝",
     image: vlog2,
     title: "News Needs to Meet Its Audiences Where They Are",
     titleLink: "https://preview.colorlib.com/theme/meranda/blog-single.html",
@@ -24,6 +26,7 @@ const data = [
   },
   {
     id: "3",
+    letter: "❝",
     image: cook,
     title: "News Needs to Meet Its Audiences Where They Are",
     titleLink: "https://preview.colorlib.com/theme/meranda/blog-single.html",
