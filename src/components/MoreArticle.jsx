@@ -51,7 +51,7 @@ const Contact = () => {
             <div className="lg:w-1/2 flex flex-row mb-6 mt-4 lg:mt-0" key={trending.id}>
               <div className="text-gray-300 text-3xl"> {trending.letter} </div>
               <div className="text-sm pb-3 px-3">
-                <h2 className="mb-6 text-lg font-semibold">
+                <h2 className="mb-6 text-lg lg:text-sm font-semibold">
                   <a href={trending.titleLink}>{trending.title}</a>
                 </h2>
                 <div className="flex flex-col space-y-1 text-xs">
