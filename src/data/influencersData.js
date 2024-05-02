@@ -1,11 +1,11 @@
-import influencerImg from '../img/influencer.png'
+import influencerImg from "../img/influencer.png";
 const dataInfluencer = [
   {
     Id: "1",
     img: influencerImg,
     quote:
       " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. ",
-    fullname: " John Doe ",
+    fullname: " Louise Kelly ",
     place: "Kosovo",
   },
   {
@@ -13,27 +13,25 @@ const dataInfluencer = [
     img: influencerImg,
     quote:
       " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.  ",
-    fullname: " John Doe ",
-    place: "Moroko",
+    fullname: " Louise Kelly ",
+    place: "Kosovo",
   },
   {
     Id: "3",
     img: influencerImg,
     quote:
       " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    fullname: " John Doe ",
-    place: "Albania",
+    fullname: " Louise Kelly ",
+    place: "Kosovo",
   },
   {
     Id: "4",
     img: influencerImg,
     quote:
       " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. ",
-    fullname: " John Doe ",
-    place: "Malta",
+    fullname: " Louise Kelly ",
+    place: "Kosovo",
   },
-  
-  
 ];
 
 export default dataInfluencer;
