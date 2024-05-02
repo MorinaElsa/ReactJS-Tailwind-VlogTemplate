@@ -30,7 +30,7 @@ const dataNavBar = [
 
     },
     {
-        id: "5",
+        id: "6",
         sectionId: "#subscribe",
         name: "Subscribe"
 
