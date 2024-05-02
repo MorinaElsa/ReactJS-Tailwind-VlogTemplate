@@ -9,7 +9,7 @@ function Influencers() {
     >
       <div className="max-w-screen-2xl mx-auto">
         <div className="text-center mb-12 mx-auto lg:max-w-5xl sm:max-w-md">
-          <span className="text-sm text-gray-400 font-medium">TESTIMONY</span>
+          <span className="text-sm text-gray-400 font-medium uppercase">influencers</span>
           <h2 className="text-3xl text-gray-500 mb-10">Our Influencers </h2>
           <p className="text-sm max-w-screen-sm mx-auto text-gray-500 mb-10 leading-6">
             Far far away, behind the word mountains, far from the countries

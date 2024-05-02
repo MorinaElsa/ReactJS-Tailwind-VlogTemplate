@@ -5,7 +5,7 @@ function Health() {
   return (
     <div
       id="health"
-      className="max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4"
+      className="max-w-[1400px] mx-auto py-16 px-4 grid lg:grid-cols-2 gap-4 mt-10 mb-20"
     >
        <div className="grid grid-cols-2 grid-rows-6 lg:h-[50vh] md:h-[50vh] ">
         {dataHealth.map((image, index) => (
