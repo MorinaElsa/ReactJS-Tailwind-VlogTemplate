@@ -22,7 +22,7 @@ function Influencers() {
         <div className="m-4 grid gap-4 text-gray-500 text-sm lg:grid-cols-2 2xl:grid-cols-4">
           {dataInfluencer.map((influencer, index) => (
             <div className="min-h-[250px] flex flex-col justify-center items-center" key={influencer.Id}>
-              <div className="rounded-full w-[150px] h-[150px] lg:w-[150px] lg:[150px] mb-8" style={{ backgroundImage: `url(${influencer.img})` , backgroundPosition: 'center', backgroundSize:'cover'}}>
+              <div className="rounded-full w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] mb-8" style={{ backgroundImage: `url(${influencer.img})` , backgroundPosition: 'center', backgroundSize:'cover'}}>
               </div>
               <div className="px-6 sm:px-12 text-center text-xs leading-5 sm:max-w-sm max-w-xs mx-auto">
                 <p className="mb-6">{influencer.quote}</p>
