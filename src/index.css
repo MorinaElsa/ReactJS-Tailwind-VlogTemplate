@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.input-text {
+  @apply text-gray-800 bg-background-gray transform -translate-y-5 -translate-x-4 scale-90;
+}
+

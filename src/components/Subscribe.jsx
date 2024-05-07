@@ -1,6 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Subscribe = () => {
+  const [email, setEmail] = useState("");
+  const [isFocused, setIsFocused] = useState(false);
+
+  const handleInputChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleInputFocus = () => {
+    setIsFocused(true);
+  };
+
+  const handleInputBlur = () => {
+    setIsFocused(false);
+  };
+
   return (
     <div id="subscribe" className="w-full bg-background-gray">
       <div className="p-10 lg:p-20 max-w-screen-2xl m-auto flex flex-col lg:flex-row items-start lg:items-center">
@@ -17,19 +32,31 @@ const Subscribe = () => {
           </div>
         </div>
 
-        <form className="lg:w-1/2 w-full">
-          <div className="lg:flex items-center justify-between">
+        <form className="lg:w-1/2 w-full flex flex-row">
+          <div className="relative">
             <input
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm lg:text-base rounded-lg p-2.5 flex-grow sm:w-96"
+              className={`bg-background-gray border border-gray-950 rounded-3xl text-gray-900 text-xs lg:text-base p-2.5 flex-grow sm:w-96 focus:outline-none ${
+                isFocused || email !== "" ? "pt-2" : ""
+              }`}
               type="email"
-              placeholder="Enter your email"
+              value={email}
+              onChange={handleInputChange}
+              onFocus={handleInputFocus}
+              onBlur={handleInputBlur}
             />
-            <button type="submit" className="mt-4 lg:mt-0 ml-2">
-              <span className="bg-button-color hover:bg-button-color text-white text-xl lg:text-2xl text-center font-extrabold py-2 px-3 rounded-full">
-                ⮚
-              </span>
-            </button>
+            <label
+              className={`absolute left-0 mt-7 mx-6 px-2 transition duration-200 input-text ${
+                isFocused || email !== "" ? "text-sm -top-5 text-gray-800" : ""
+              }`}
+            >
+              Username or Email
+            </label>
           </div>
+          <button type="submit" className="mt-4 lg:mt-0 ml-2">
+            <span className="bg-button-color hover:bg-button-color text-white text-xl lg:text-2xl text-center font-extrabold py-2 px-3 rounded-full">
+              ⮚
+            </span>
+          </button>
         </form>
       </div>
     </div>
